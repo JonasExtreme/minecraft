@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Super Simpson Gamer Calculator</H1>
+    <button onclick="media()">qual a media</button>
+    <button onclick="attnome()">veja se tu é maior de idade</button>
+</body>
+</html>
+<script>
+    function media(){
+        var n = prompt("Escreve ai os numero da media")
+        var resultado, soma = 0
+        for(var i = 1; i<=n; i++){
+            soma += Number(prompt("escreve o "+i+" numero"))
+        }
+        resultado = soma / n
+        alert("A media vai ser "+resultado)
+    }
+</script>
+<script>
+    function attnome(){
+        var nome = prompt("Qual teu nome?")
+        var idade = prompt("Qual tua idade")
+            if (idade >= 18) {
+              alert("Opa "+nome+" tens "+idade+", então tu é maior de idade")
+            } else {
+               alert("opa "+nome+" tens "+idade+", então tu é menor de idade") 
+            }
+    }
+</script>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dwzl3fzZ2Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+<style>
+    body{background-color: #7B42D6}
+</style>
