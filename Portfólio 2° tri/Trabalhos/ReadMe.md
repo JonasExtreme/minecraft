@@ -1,6 +1,6 @@
 # 💫 About Me:
 Student<br>SQL<br>Minecraft<br>Eu sei mexer minha orelha
-"Eu sou Lorax, e falo pelas árvores"
+<p>"Eu sou Lorax, e falo pelas árvores"</p>
 
 
 ## 🌐 Socials:
