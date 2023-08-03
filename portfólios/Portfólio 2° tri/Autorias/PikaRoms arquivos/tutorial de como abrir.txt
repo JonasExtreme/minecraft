@@ -1,0 +1,9 @@
+Bom, fiz um arquivo (PikaRoms) para baixar roms dealguns jogos de pokémon,
+porém, usei algumas imagens do meu computador (o motivo das fotos não abrirem),
+eram as capas dos respectivos jogos.
+E no canto fiz 2 links que mandavam diretamente a outro arquivo,
+só que ainda não sei como une todos os arquivos em um só, por isso
+a página não abre, por isso enviei junto a pasta links, nela contém as roms de ds e gba.
+Então são 3 arquivos, o "PikaRoms.html" que é a página inicial,
+e dentro da pasta links há o "roms ds.html" e "roms gba.html", que é olocal das roms.
+É só abrir cada arquivo para ver o que cadaum é, desculpa pelo incômodo.🤠
