@@ -1,7 +1,6 @@
-function imparpar(){
-    var numero = numero
+function imparpar(numero){
 
-    if (numero % 2 == 0){
+    if (numero % 2 === 0){
         return('par')
     }
         
@@ -9,4 +8,4 @@ function imparpar(){
         return('impar')
     }
 }
-console.log(imparpar(4))
+console.log(imparpar(7))
