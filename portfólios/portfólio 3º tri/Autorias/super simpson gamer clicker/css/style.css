@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    height: 50vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: #312f1f;
+    background-color: #FAE36E;
+}
+
+.img {
+    margin-top: 50px;
+}
+
+#contador {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.musica {
+    margin-top: 50px;
+}
+    
+#imagem {
+
+    transition: filter 0.3s ease;
+}
+
+#imagem:hover {
+    filter: brightness(80%);
+}
