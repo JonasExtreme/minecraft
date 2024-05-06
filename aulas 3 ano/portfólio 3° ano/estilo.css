@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body1{
+background-color: #ee7272;
+}
+
+.body1{
+    color: #3f0000;
+}
+
+.header1{
+    background-color: #bb3535;
+    display: flex;
+    padding: 8px;
+}
+
+.section1 div{
+    margin-top: 30px;
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+}
+
+.section1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer1{
+    background-color: #bb3535;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.section1 a{
+    color: #3f0000;
+    text-decoration: none;
+}
