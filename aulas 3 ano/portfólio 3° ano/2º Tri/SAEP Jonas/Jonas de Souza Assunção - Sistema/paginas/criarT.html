@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="../script.js"></script>
+    <title>Criar Tarefa</title>
+</head>
+<body>
+    
+<header>
+    <h2>Gerenciador de Tarefas</h2>
+    <nav>
+        <a href="../index.html">Página Inicial</a>
+        <a href="./criarT.html">Criar Tarefas</a>
+        <a href="./verT.html">Ver Tarefas</a>
+    </nav>
+</header>
+
+<h2>Criar Tarefa</h2>
+
+    <label for="descricao">Descrição da Tarefa:</label>
+    <input type="text" id="descricao" placeholder="Descrição da tarefa">
+
+    <label for="setor">Nome do Setor:</label>
+    <input type="text" id="setor" placeholder="Nome do setor">
+
+    <label for="prioridade">Prioridade:</label>
+    <select id="prioridade">
+        <option value="Alta">Alta</option>
+        <option value="Média">Média</option>
+        <option value="Baixa">Baixa</option>
+    </select>
+
+    <label for="status">Status:</label>
+    <select id="status">
+        <option value="Em andamento">Em andamento</option>
+        <option value="Concluída">Concluída</option>
+        <option value="Pendente">Pendente</option>
+    </select>
+
+    <button onclick="criarTarefa()">Criar Tarefa</button>
+
+</body>
+</html>

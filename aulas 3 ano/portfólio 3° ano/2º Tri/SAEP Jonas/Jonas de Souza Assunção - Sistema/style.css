@@ -1,0 +1,43 @@
+body{
+    background-color: #c7d8e7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #669fd4;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 0;
+    color:#ffffff
+}
+
+header a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+form {
+    background-color: #669fd4;
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+label{
+    padding: 10px;
+}
+
+table{
+    background-color: #669fd4;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+}
+
